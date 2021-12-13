@@ -1,0 +1,23 @@
+.footer__text1 {
+}
+
+.footer__text2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: right;
+    justify-content: right;
+    p {
+        margin-left: 40px;
+        &:nth-child(1) {
+            margin-left: 0px;
+        }
+    }
+}
+@media (max-width:765px) {
+
+    .footer__text2 {
+        // grid-template-columns: auto;
+        text-align: center;
+        justify-content:center;
+    }
+}

@@ -1,0 +1,14 @@
+.filled {
+    fill: var(--primary);
+    transition: 0.2s;
+}
+.star {
+    cursor: pointer;
+   
+}
+.ratingBg {
+     background-color: var(--white);
+     span {
+        transform: translateX(-100px);
+     }
+}
